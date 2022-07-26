@@ -586,7 +586,7 @@ ghosts.map(ghost => {
 				ghost.prevCollisions = []; 
 		}
 		// win condition 
-		if (score === 700) {
+		if (score === 700 || pallets.length === 0) {
 	          cancelAnimationFrame(animationId);
  		  win.style.display = "block"; 
  	          restart.style.display = "block"
