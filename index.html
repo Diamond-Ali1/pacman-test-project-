@@ -1,0 +1,51 @@
+<!DOCTYPE html>						
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+		<meta name="author" content="Diamond Ali">
+		<title>pacman</title>
+		<link rel="stylesheet" href="pacman.css"></link>
+		<style>
+		 
+		</style>
+</head>
+		<body>
+				<div class="coverImage">
+						<img src="./Images/cover.jpg" alt="coverimage">
+				</div>
+				<div>
+						<button class="play">
+								play
+						</button>
+				</div>
+				<div class="scoreContainer" style="padding-left:10px; padding-top:3px;"><span>Score: </span><span id="scoreEl">0</span></div>
+				<div class="levels">
+						<button class="easy">Easy🙃</button>
+						<button class="hard">Hard😎</button>
+						<button class="pro">Pro😈</button>
+				</div>
+		  <canvas></canvas>
+		  <div class="controls">
+		    <div class="arrowUp">⬆️ </div>
+		   <div class="RLkeys">
+		      <span class="arrowLeft">⬅️</span>
+		      <span class="arrowRight">➡️</span>
+		   </div>
+		    <div class="arrowDown">⬇️</div>
+		  </div>
+		  <div class="win">
+		  		You win👑
+		  </div>
+		  <div class="lose">
+		  		You lose😔
+		  		score : <span class="scoreResult"></span>
+		  </div>
+		  <div>
+		  		<button class="restart">
+		  				<a href="index.html">Restart </a>
+		  		</button>
+		  </div>
+		  <script src="pacman.js"></script>
+		</body>
+</html>
