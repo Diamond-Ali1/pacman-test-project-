@@ -587,11 +587,11 @@ ghosts.map(ghost => {
 		}
 		// win condition 
 		if (score === 700) {
-				cancelAnimationFrame(animationId);
- 				 	win.style.display = "block"; 
- 				 	restart.style.display = "block"
- 				 	canvas.style.opacity = 0.1;
- 				 	controls.style.opacity = 0.1;
+	          cancelAnimationFrame(animationId);
+ 		  win.style.display = "block"; 
+ 	          restart.style.display = "block"
+ 		  canvas.style.opacity = 0.1;
+ 		  controls.style.opacity = 0.1;
 		}  
 		//decides what happens  when player collides with powerups and makes the ghost go into  scared mood for 5 seconds 
 		for (let i = powerUps.length - 1; 0 <= i; i--) {
